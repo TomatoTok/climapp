@@ -6,7 +6,7 @@
 }
 
 body{
-    width: 100%;
+    width: 99%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -36,16 +36,16 @@ display: none;
 #bloque_1{
     border:1px solid #1d3557;
     padding: 5px 15px;
-    width: 150px;
-    height: 130px;
+    width: 250px;
+    height: 200px;
     background-color: #457b9d;
 }
 
 #bloque_2{
     border:1px solid #1d3557;
     padding: 5px 15px;
-    width: 200px;
-    height: 130px;
+    width: 250px;
+    height: 200px;
     background-color: #1d3557;
 }
 #bloque_2 > .display {
@@ -81,7 +81,7 @@ footer{
         flex-direction: column;
     }
     #bloque_1{
-        width: 200px;
+        width: 250px;
     }
 }
 

@@ -33,7 +33,7 @@ const finLoad = () =>{
 }
 const obtenerFecha = () =>{
     let fecha = new Date();
-    return  fecha.getDay()+'/'+( ('0'+(fecha.getMonth())).slice(-2) ) +'/'+fecha.getFullYear();
+    return  fecha.getDate()+'/'+ (fecha.getMonth()+1) +'/'+fecha.getFullYear();
 }
 
 const onLoad = () => {
